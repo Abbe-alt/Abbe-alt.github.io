@@ -55,10 +55,10 @@ flex-basis: 100%;
 height: 862px;
     margin-bottom: 0.9rem;
 	position: relative;
-float: left;
+
 top: 43px;
 width: 300px;
-minwidth: 60px;
+
 background-color: #004ac1;
 padding: 3px 20px 15px 10px;
  border: 2.8px solid black;
@@ -68,12 +68,10 @@ padding: 3px 20px 15px 10px;
   flex-basis: 100%;
     margin-bottom: 0.9rem;
 positiion: relative;
-float: right;
-clear: right;
+
 top: 49px;
-right: 1px;
-width: 300px;
-minwidth: 60px;
+width: 295px;
+
 background-color: #004ac1;
 padding: 3px 20px 15px 10px;
  border: 2.8px solid black;
@@ -88,20 +86,48 @@ padding: 3px 20px 15px 10px;
 .mdiv2 {
 flex-basis: 100%;
 margin-bottom: 0.9rem;
-minwidth: 50px;
+
 text-align: center;
-font-size: 14px;
-background-color: brown;
+font-size: 13px;
+background-color: hsla(0, 31%, 35%, 0.91);
 border: 1.2px solid black;
-width: 340px;
-height: 33px;
+width: 360px;
+height: 26px;
 position: fixed;
-clear: left;
-top: 2.5px;
-left: 60px;
+top: 0px;
+left: 40px;
 border-radius: 8px;
 z-index: 4;
 }
+  
+	.mdiv3 {
+flex-basis: 100%;
+margin-bottom: 0.9rem;
+background-color: brown;
+border: 1.2px solid black;
+width: 360px;
+height: 26px;
+position: fixed;
+clear: left;
+top: 0px;
+left: 40px;
+border-radius: 8px;
+z-index: 3;
+animation-name: container;
+animation-duration: 2s;
+}
+@keyframes container {
+0% {
+top: 200px;
+}
+100% {
+top: 1px;
+background-color:rgb(255,255,0);opacity:0;
+}
+
+}    
+
+	    
 .toolbar {
 color: black;
 position: relative;
@@ -111,8 +137,8 @@ right: -5;
 .toolbar1 {
 text-shadow: 0px 10px 5px 1px;
 position: relative;
-top: 20px;
-right: 3;
+top: 11px;
+right: 0px;
 }
 .toolbar:hover {
 color: orange;
@@ -138,6 +164,9 @@ color: orange;
     div {
       flex-basis: 33%;
     }
+	.mdiv2 {
+	width: 945px;
+	}
   }
 </style>
 <!-- <script src="scripts/main.js"></script>
@@ -158,19 +187,23 @@ alert('Awww, but chocolate is the best');
 <a href="https://abbe-alt.github.io" target="_blank" class="toolbar">sOY tEXTO</a>
 <a class="toolbar1" href="#" target="_blank">sOY mAS tEXTO</a>
 </div>
+<div class="mdiv3">
+</div>
 <div class="mdiv">
 <h1>Coding is real cool</h1>
 <p>hola warudo!!!</p>
 <h2>This second section</h2>
-<a href="https://static.wikia.nocookie.net/zelda/images/2/26/Link_Artwork_LAR.png/revision/latest/scale-to-width-down/350?cb=20191015020845&path-prefix=es" title="Inkl the cflake" target="_blank">Link</a>
+
 <p>You're seeing coding written using a <strong>smartphone</strong>, as you can see is possible to do so. The reasons sometimes it's better coding using your <strong>PC</strong> it's because there are more tools and implementations you can use, but giving how <strong>advanced software</strong> on smartphones is nowadays, we'll have most of the basic tools inside our pockets.</p>
    <p id="my-id">
 <iframe width="170px" height="140px" src="https://www.youtube.com/embed/1bWyLXd0KKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
      <p draggable="true">Another text sample to add more fit body to all this page thingy, nothing of  relevance really. This is how it looks. And now the text should be of another <strong>colour</strong>.</p>
-  <img src="tutti.png" alt=""candle img>
+  <a href="https://static.wikia.nocookie.net/zelda/images/2/26/Link_Artwork_LAR.png/revision/latest/scale-to-width-down/350?cb=20191015020845&path-prefix=es" title="Inkl the cflake" target="_blank">Link</a>
+  <br>
   <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://static.wikia.nocookie.net/zelda/images/2/26/Link_Artwork_LAR.png/revision/latest/scale-to-width-down/350?cb=20191015020845&amp;path-prefix=es">
+    <img src="tutti.png" alt=""candle img>
   </div>
   <br>
   <div class="mdiv1">
@@ -179,9 +212,9 @@ alert('Awww, but chocolate is the best');
 being valid</p><br>
 <h2>Thy third section</h2>
 
-<p>This is another sample where is being seen <strong>text</strong>, text one can stylize with CSS. One can obtain almost any effect one wants, as long as 
-one posseses enough <strong>knownledge</strong> or one can also search up things one cannot remember on Google, since we cannot remember every single line, thanks to the tons of tools online doing this is becoming <strong>friendlier</strong> to everyone finding the right guides to proceed succefully with every process.</p> 
-<p id="my-id"><a href="https://ssstatic.wikia.nocookie.net/zelda/images/2/26/Link_Artwork_LAR.png/revision/latest/scale-to-width-down/350?cb=20191015020845&path-prefix=es" title="Ethe" target="_blank">Inkl</a> <br>
+<p>This is another sample where is being seen <strong>text</strong>, text one can stylize with CSS. One can obtain almost any effect wanted, as long as 
+one posseses enough <strong>knownledge</strong> or can also search up things cannot be remembered on Google, since we cannot remember every single line, thanks to the tons of tools online doing this is becoming <strong>friendlier</strong> to everyone finding the right guides to proceed succefully with every process.</p> 
+<p id="my-id"><a href="https://static.wikia.nocookie.net/zelda/images/e/e1/Link_Artwork_2_%28The_Minish_Cap%29.png/revision/latest?cb=20120124213342&path-prefix=es" title="Ethe" target="_blank">Inkl</a> <br>
 <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://static.wikia.nocookie.net/zelda/images/e/e1/Link_Artwork_2_%28The_Minish_Cap%29.png/revision/latest?cb=20120124213342&path-prefix=es" title="Ethe">
      <img src="tuutti.png" alt="None">
   <p draggable="true" cp>This is another text sample to add some body to all this page, nothing of relevance really. This is how it looks. And now what yo view must in a different <strong>tonality</strong> surely.</p>
