@@ -10,6 +10,8 @@
   background-color: #0a00c1;
 } 
 h1 {
+position: relative;
+left: 43px;
   color: green;
   padding: 3px 0px 0px 3px;
   width: 276px;
@@ -18,6 +20,8 @@ h1 {
   
 }
 .hh1 {
+position: relative;
+left: 46px;
   color: green;
   padding: 3px 0px 0px 3px;
   width: 260x;
@@ -52,11 +56,10 @@ grid-area: ;
 
 .mdiv {
 flex-basis: 100%;
-height: 862px;
+height: 882px;
     margin-bottom: 0.9rem;
 	position: relative;
-
-top: 43px;
+top: 43x;
 width: 300px;
 
 background-color: #004ac1;
@@ -67,9 +70,9 @@ padding: 3px 20px 15px 10px;
   .mdiv1 {
   flex-basis: 100%;
     margin-bottom: 0.9rem;
-positiion: relative;
-
-top: 49px;
+position: relative;
+height: 909px;
+top: 3px;
 width: 295px;
 
 background-color: #004ac1;
@@ -89,13 +92,13 @@ margin-bottom: 0.9rem;
 
 text-align: center;
 font-size: 13px;
-background-color: hsla(0, 31%, 35%, 0.91);
+background-color: hsla(146, 83%, 30%, 0.93);
 border: 1.2px solid black;
 width: 360px;
 height: 26px;
 position: fixed;
 top: 0px;
-left: 40px;
+left: 33px;
 border-radius: 8px;
 z-index: 4;
 }
@@ -103,18 +106,18 @@ z-index: 4;
 	.mdiv3 {
 flex-basis: 100%;
 margin-bottom: 0.9rem;
-background-color: brown;
+background-color: hsla(146, 83%, 30%, 0.92);
 border: 1.2px solid black;
 width: 360px;
 height: 26px;
 position: fixed;
 clear: left;
 top: 0px;
-left: 40px;
+left: 33px;
 border-radius: 8px;
 z-index: 3;
 animation-name: container;
-animation-duration: 2s;
+animation-duration: 1.8s;
 }
 @keyframes container {
 0% {
@@ -131,15 +134,25 @@ background-color:rgb(255,255,0);opacity:0;
 	    
 .toolbar {
 color: black;
-position: relative;
+position: absolute;
 top: 1px;
-right: -5;
+right: 199px;
+background-color: hsla(0, 81%, 35%, 0.47);
+border: 1.2px solid black;
+border-radius: 6px;
+border-top-width: 3px;
+border-left-width: 2px;
 }
 .toolbar1 {
 text-shadow: 0px 10px 5px 1px;
-position: relative;
-top: 11px;
-right: 0px;
+position: absolute;
+top: 8px;
+right: 80px;
+background-color: hsla(214, 40%, 73%, 0.9);
+border: 1.2px solid black;
+border-radius: 6px;
+border-top-width: 2px;
+border-left-width: 1px;
 }
 .toolbar:hover {
 color: orange;
@@ -166,20 +179,40 @@ color: orange;
       flex-basis: 33%;
     }
 	.mdiv2 {
-	width: 945px;
+	width: 1049px;
+	left: 16px;
 	}
 	  .mdiv3 {
-	width: 945px;
+	width: 1049px;
+	left: 16px;
 	}
-    @keyframes container {
+	.toolbar {
+color: black;
+position: absolute;
+top: 1px;
+right: 550px;
+background-color: hsla(214, 40%, 73%, 0.9);
+border: 1.2px solid brown;
+}
+.toolbar1 {
+text-shadow: 0px 10px 5px 1px;
+position: absolute;
+top: 7px;
+right: 380px;
+background-color: hsla(214, 40%, 73%, 0.9);
+border: 1.2px solid black;
+}
+   @keyframes container {
 0% {
 top: 200px;
-width: 945px;
+width: 360px;
+left: 350px;
 }
 100% {
 top: 1px;
 background-color:rgb(255,255,0);opacity:0;
-}
+} 
+
   }
 </style>
 <!-- <script src="scripts/main.js"></script>
@@ -222,7 +255,7 @@ alert('Awww, but chocolate is the best');
   <div class="mdiv1">
 <h1 class="hh1">Thy deal coding aits!</h1>
 <p>All the effort<br>
-being valid</p><br>
+being valid</p>
 <h2>Thy third section</h2>
 
 <p>This is another sample where is being seen <strong>text</strong>, text one can stylize with CSS. One can obtain almost any effect wanted, as long as 
