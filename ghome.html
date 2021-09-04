@@ -1,132 +1,210 @@
 <html>
 <meta>
-<link href="stylee.css" rel="stylesheet">
 <title>Foogle</title>
 <style>
+
 .material-icons-outlined {
 position: relative;
-top: 12;
+top: 14px;
 left: 860px;
 }
 .material-icons-outlined:hover {
 background-color: hsla(209, 100%, 50%, 0.13);
 }
-#searchbar {
+
+.signin {
 position: relative;
-    display: flex;
-    min-width: 100px;
-right: -260px;
-top: 150px;
+left: 1000px;
+top: -19px;
+background-color: dodgerblue;
+color: white;
+width: 55px;
+padding-bottom: 8px;
+padding-left: 9px;
+padding-right: 5px;
+padding-top: 5px;
+border-radius: 2px;
+margin-right: 9px;
 }
-#searchbarr:hover {
-box-shadow: 1px 2px 7px grey;
+
+.foogle {
+position: absolute;
+top: 150px;
+left: 440px;
+max-width: 279px;
+max-height: 96px;
+width: auto;
+}
+#searchbar { 
+position: relative;
+    max-width: 47%;
+	height: 10%;
+    min-width: 150px;
+right: -280px;
+top: 190px;
 }
 #searchbarr {
 border: 1px solid gray;
 border-radius: 19px;
-height: 40px;
+height: 46px;
 width: 500px;
-
+outline: 0;
+padding: 3px 23px 6px 42px;
+}#searchicon {
+position: absolute;
+top: 9px;
+left: 113px;
+cursor: pointer;
 }
-body {
-width: 500px;
-
+#searchbarr:hover {
+box-shadow: 1px 2px 7px grey;
+}
+#searchicon {
+position: absolute;
+top: 11px;
+left: 13px;
+cursor: pointer;
 }
 #button-bg {
 font-family: monospace;
 position: relative;
-right: -410px;
-top: 170px;
+left: 104px;
+top: 43px;
+max-width: 257px;
+width: auto;
 }
+
 #btton {
 background-color: D8E4F0;
 border: 1px;
 border-radius: 3px;
 padding: 10px 12px 11px 12px;
 cursor: pointer;
+opacity: 0.9;
 }
 #btton1 {
 background-color: hD8E4F0;
 border-radius: 3px;
 border: 1px;
-margin-left: 5px;
+margin-left: 9px;
 padding: 10px 12px 11px 12px;
 cursor: pointer;
-
+opacity: 0.9;
+}
+#btton1:hover {
+box-shadow: 1px 2px 6px grey;
+opacity: 1;
 }
 #btton:hover {
-border: 1px;
+box-shadow: 1px 2px 7px grey;
+border: 3px;
+opacity: 1;
 }
 #links {
 text-decoration: none;
 position: relative;
-top: 5.5px;
+top: 2;
 margin-left: 5px;
 right: -850px;
 color: black;
 }
-links:active {
-  text-decoration: underline;
-}
 #footy {
+color: black;
 position: absolute;
-font-family: sans;
+font-family: ;
 display: flex;
 bottom: 0;
 left: 0;
 width: 100%;
-height: 33px;
+height: 38px;
 background-color: D8E4F0;
 }
 .About {
-position: relative;
-top: -6px;
+position: absolute;
+top: 19px;
+left: 25px;
+width: 20px;
+}
+.Store {
+width: 25px;
+position: absolute;
+top: 19px;
+left: 85px;
 }
 .Aboutt {
 position: relative;
-top: -6px;
-right: -60px;
+top: 8px;
+right: -26px;
+height: 6px;
 }
 .Business {
 position: relative;
-right: -100px;
-top: -6px;
+right: -60px;
+top: 8px;
+height: 6px;
 }
-#searchicon {
+.HowS {
 position: absolute;
-top: 9px;
-left: 13px;
-cursor: pointer;
+right: 735px;
+top: 8px;
+height: 6px;
 }
-.signin {
+.Privacy {
 position: relative;
-left: 1000px;
-top: -19;
-background-color: dodgerblue;
-color: white;
-width: 55px;
-padding-bottom: 6px;
-padding-left: 7px;
-padding-right: 3px;
-padding-top: 3px;
-border-radius: 2px;
-margin-right: 9px;
+right: -690px;
+top: 8px;
+height: 6px;
 }
-.foogle {
-position: absolute;
-top: 110px;
-left: 420px;
-max-width: 272px;
-max-height: 92px;
-width: auto;
+.Terms {
+position: relative;
+right: -710px;
+top: 8px;
+height: 6px;
+}
+
+.Settings {
+position: relative;
+right: -868px;
+top: 8px;
+height: 6px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+
+@media (min-width: 600px) {
+
+
+
 }
 </style>
+<script>
+function myFunction() {
+  document.getElementById("body").style.backgroundColor = "red";        
+}
+</script>
 </meta>
-<body>
+<body id="body">
+
+<a class="About" onclick="alert('An artery was punctured, you monstaaa!!! :{ :[ :{'), myFunction()" title="Dunnot pock me">About</a>
+<a class="Store" href="https://en.wikipedia.org/wiki/Store">Store</a>
 <a href="https://www.google.com/gmail/"  id="links">Fmail</a>
 <a href="https://web.archive.org/web/20191130234759/https://www.google.com/imghp?hl=en&tab=wi&ogbl" id="links">Images</a>
 <span class="material-icons-outlined" title="Foogle Apps">
-<img src="images/appicon.png">
+<img src="images/appicon.png" onclick="alert('Did you know that an app launcher should have appeared , hihihi')">
 </span>
 <div class="signin">Sign In<a href="https://github.com/Abbe-alt/Abbe-alt.github.io/blob/main/Honey.png">.</a></div>
 	
@@ -135,20 +213,20 @@ width: auto;
            <label for="search"></label>
 		   <input type="search" id="searchbarr" name="search" title="Search">
 			<img id="searchicon" src="searchicon/searchicon.png">
-          </div>
-		  <br>
 			<div id="button-bg"> 
 			<button id="btton" onclick="alert('You fell for it you fool!!! Foogler')">Foogle Search</button>
 			<button id="btton1" onclick="alert('Not supposed to do that, mate.')">I'm Feeling Lucky</button>
   </div>
-<!-- /*<div id="searchbar">
-dd
-</div>
--->
-<footer id="footy">
-<p class="About">About</p>
-<p class="Aboutt">Advertising</p>
-<p class="Business">Business</p>
+          </div>
+		  <br>
+		  <footer id="footy">
+
+<a class="Aboutt"  href="https://www.amazon.com/Kitchen-Safe-Locking-Container-Height/dp/B00E9J3MLM">Advertising</a>
+<a class="Business"  href="https://web.archive.org/web/20051125181021/http://www.facebook.com/jobs.php">Business</a>
+<a class="HowS"  href="https://mymodernmet.com/professional-panda-hugger/#:~:text=As%20of%20right%20now%2C%20China's,to%20cuddle%20with%2C%20feed%2C%20clean">How Search works</a>
+<a class="Settings" href="www.chrome://settings" target="_blank">Settings</a>
+<a class="Privacy" href="#">Privacy</a>
+<a class="Terms"  onclick="myFunction()" href="#">Terms</a>
 </footer>
 </body>
 <html>
